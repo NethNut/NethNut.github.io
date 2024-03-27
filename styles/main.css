@@ -7,3 +7,9 @@
     color: purple;
 }
 
+.box{
+    display: block;
+  border: 5px dotted black;
+  margin: 2px 1em 4px 2em;
+  padding: 1em;
+}
