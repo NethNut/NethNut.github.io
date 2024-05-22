@@ -13,3 +13,59 @@
 .right{
     right: 10px;
 }
+
+.title{
+    font-size: 60px;
+    margin: auto;
+    width: 14%;
+    padding: 20px;
+    text-align: center;
+    background-color: teal;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(28, 109, 109);
+    position: relative;
+    right: 200px;
+    top: 50px;
+}
+
+.link{
+    background-color: darkgray;
+    color: rgb(56, 56, 56);
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition-duration: 1s;
+}
+
+.link:hover{
+    background-color: gray;
+    transition-duration: 1s;
+    box-shadow: 5px 5px 5px black;
+}
+
+.image{
+    scale: 50%;
+    border-radius: 100%;
+    display: block;
+    margin-left: auto;
+}
+
+.text{
+    width: 1500px;
+  border: 15px solid rgb(138, 185, 138);
+  padding: 20px;
+  margin: 50px;
+  font-style: italic;
+  background-color: rgb(184, 194, 156);
+}
+h2{
+    position: absolute;
+    left: 80px;
+    bottom: 350px;
+    font-size: 40px;
+}
+
+body {
+    background-color: lightblue;
+}
