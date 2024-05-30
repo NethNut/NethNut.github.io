@@ -1,4 +1,5 @@
- .fixed {
+
+.fixed {
     position: fixed;
 }
 
@@ -31,41 +32,68 @@
 
 .link{
     background-color: darkgray;
-    color: rgb(56, 56, 56);
+    color: randomColor;
     padding: 5px 10px;
     text-decoration: none;
     border-radius: 25px;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .link:hover{
     background-color: gray;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     box-shadow: 5px 5px 5px black;
 }
 
 .image{
-    scale: 50%;
+    width: 30%;
+    height:auto;
     border-radius: 100%;
-    display: block;
-    margin-left: auto;
+    left: 40%;
+    position: relative;
 }
 
 .text{
-    width: 1500px;
+    width: 50vw;
   border: 15px solid rgb(138, 185, 138);
   padding: 20px;
   margin: 50px;
   font-style: italic;
   background-color: rgb(184, 194, 156);
+  position: relative;
+  top: 20%;
 }
-h2{
-    position: absolute;
+.subtitle{
+    position: relative;
     left: 80px;
-    bottom: 350px;
     font-size: 40px;
 }
 
 body {
     background-color: lightblue;
 }
+
+.fimg{
+    position: relative;
+    width: 26%;
+    height: auto;
+    left: 80px;
+}
+
+.diet{
+    top: 5vw;
+}
+.listofdiet{
+    position: relative;
+    left: 60vw;
+    font-style: italic;
+}
+
+video{
+    position: relative;
+    bottom: 38vw;
+    height: 20vw;
+    width: auto;
+    left: 60vw;
+}
+

@@ -1,0 +1,98 @@
+fixed{
+    position: fixed;
+}
+
+.bottom{
+    bottom: 10px;
+}
+
+.left {
+    left: 10px;
+}
+
+.right{
+    right: 10px;
+}
+
+.title{
+    font-size: 60px;
+    margin: auto;
+    width: 14%;
+    padding: 20px;
+    text-align: center;
+    background-color: teal;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgb(28, 109, 109);
+    position: relative;
+    right: 200px;
+    top: 50px;
+}
+
+.link{
+    background-color: darkgray;
+    color: randomColor;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition-duration: 0.5s;
+}
+
+.link:hover{
+    background-color: gray;
+    transition-duration: 0.5s;
+    box-shadow: 5px 5px 5px black;
+}
+
+.image{
+    width: 30%;
+    height:auto;
+    border-radius: 100%;
+    left: 40%;
+    position: relative;
+}
+
+.text{
+    width: 50vw;
+  border: 15px solid rgb(138, 185, 138);
+  padding: 20px;
+  margin: 50px;
+  font-style: italic;
+  background-color: rgb(184, 194, 156);
+  position: relative;
+  top: 20%;
+}
+.subtitle{
+    position: relative;
+    left: 80px;
+    font-size: 40px;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.fimg{
+    position: relative;
+    width: 26%;
+    height: auto;
+    left: 80px;
+}
+
+.diet{
+    top: 5vw;
+}
+.listofdiet{
+    position: relative;
+    left: 60vw;
+    font-style: italic;
+}
+
+video{
+    position: relative;
+    bottom: 38vw;
+    height: 20vw;
+    width: auto;
+    left: 60vw;
+}
+
