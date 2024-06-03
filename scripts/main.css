@@ -31,11 +31,15 @@ fixed{
 
 .link{
     background-color: darkgray;
-    color: randomColor;
     padding: 5px 10px;
     text-decoration: none;
     border-radius: 25px;
     transition-duration: 0.5s;
+}
+
+.LinkImg{
+    height: 1vw;
+    width: auto;
 }
 
 .link:hover{
@@ -96,3 +100,6 @@ video{
     left: 60vw;
 }
 
+.imagemovment{
+    
+}
