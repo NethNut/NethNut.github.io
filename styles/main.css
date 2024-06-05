@@ -72,6 +72,7 @@
 
 body {
     background-color: lightblue;
+    overflow-x: hidden;
 }
 
 .fimg{
@@ -160,6 +161,7 @@ video{
     animation-duration:  1s ;   
     animation-name: button;
     animation-play-state: paused;
+    animation-fill-mode: both;
 }
 
 .fakebutton:hover{
@@ -173,4 +175,12 @@ video{
     to{
         left: 50%;
     }
+}
+
+.flex{
+    display: flex;
+}
+
+#gallery > img {
+    border: red 1px border;
 }
