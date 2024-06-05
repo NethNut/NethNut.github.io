@@ -6,3 +6,4 @@ function changeBackgroundColor(color) {
 document.addEventListener("DOMContentLoaded", function(){
   document.body.style.backgroundColor = localStorage.getItem("bgColor") ?? "lightblue";
 });
+
