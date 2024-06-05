@@ -157,11 +157,13 @@ video{
     display:inline-block;
     position: relative;
     right: 20vw;
-}
-
-.fakebutton :hover{
     animation-duration:  1s ;   
     animation-name: button;
+    animation-play-state: paused;
+}
+
+.fakebutton:hover{
+    animation-play-state: running;
 }
 
 @keyframes button {
