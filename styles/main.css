@@ -179,8 +179,16 @@ video{
 
 .flex{
     display: flex;
+    justify-content: space-around;
 }
 
 #gallery > img {
     border: red 1px border;
+}
+
+.imgmake{
+    position: relative;
+    top: 10vw;
+    height: 20vw;
+    width: auto;
 }

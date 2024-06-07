@@ -1,5 +1,5 @@
 const imageGallery = document.querySelector("#gallery");
-let myImages = ["img1.jpg", "img2.jpg", "img3.jpg"]
+let myImages = ["images/pod.jpg", "images/pod.jpg", "images/pod.jpg"]
 for (let i = 0; i < myImages.length; i++){
     let image = document.createElement("img");
     image.src = myImages[i];
